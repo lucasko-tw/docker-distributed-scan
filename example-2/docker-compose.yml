@@ -1,0 +1,13 @@
+scan1:
+  image: lucasko/python
+  volumes:
+    - $PWD:/opt
+  command: "python /opt/app.py "
+
+
+scan2:
+  image: lucasko/python
+  volumes:
+    - $PWD:/opt
+  command: "python /opt/app.py "
+

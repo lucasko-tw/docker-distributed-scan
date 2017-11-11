@@ -1,0 +1,13 @@
+scan1:
+  image: lucasko/python
+  volumes:
+    - $PWD:/opt
+  command: "python /opt/scan.py 8.8.8.8 "
+
+
+scan2:
+  image: lucasko/python
+  volumes:
+    - $PWD:/opt
+  command: "python /opt/scan.py 168.95.1.1 "
+
